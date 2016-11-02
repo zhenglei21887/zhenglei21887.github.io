@@ -8,18 +8,18 @@
 	<script type="text/javascript" src="./lib/jquery.js"></script>
 	<script type="text/javascript" src="./js/pintu.js"></script>
 	<script type="text/javascript">
-		$(document).ready(function() { 
-			//Default Action 
-			$(".tab_content").hide();//Hide all content 
-			$("ul.tabs li:first").addClass("active").show();//Activate first tab 
-			$(".tab_content:first").show();//Show first tab content 
-			//On Click Event 
-			$("ul.tabs li").click(function() { 
-				$("ul.tabs li").removeClass("active");//Remove any "active" class 
-				$(this).addClass("active");//Add "active" class to selected tab 
-				$(".tab_content").hide();//Hide all tab content 
-				var activeTab = $(this).find("a").attr("href");//Find the rel attribute value to identify the active tab + content 
-				$(activeTab).fadeIn();//Fade in the active content 
+		$(document).ready(function() {
+			//Default Action
+			$(".tab_content").hide();//Hide all content
+			$("ul.tabs li:first").addClass("active").show();//Activate first tab
+			$(".tab_content:first").show();//Show first tab content
+			//On Click Event
+			$("ul.tabs li").click(function() {
+				$("ul.tabs li").removeClass("active");//Remove any "active" class
+				$(this).addClass("active");//Add "active" class to selected tab
+				$(".tab_content").hide();//Hide all tab content
+				var activeTab = $(this).find("a").attr("href");//Find the rel attribute value to identify the active tab + content
+				$(activeTab).fadeIn();//Fade in the active content
 				return false;
 			});
 		});
@@ -36,21 +36,7 @@
 	</ul>
 	<div class="tab_container">
 		<div id="tab1" class="tab_content">
-			<h2>个人简介</h2>
-			<a ><img src="./img/life_photo.jpg" alt="mobile 2G?" /></a>
-			<h3>简单 朴素 真</h3>
-			<p>姓名：田野&emsp;&emsp;&emsp;&emsp;出生日期：1989年2月18日</p>
-			<p>学历：工学硕士&emsp;&emsp;毕业院校：大连交通大学</p>
-			<p>联系电话：15140337320</p>
-			<p>E-mail:tianye0218@163.com</p>
-			<p style="font-weight:bold">自我评价：</p>
-			<p>※朴实乐观、吃苦耐劳、为人诚恳、性格随和。</p>
-			<p>※学习能力强。</p>
-			<p>&emsp;&emsp;四个月时间，自学通过日语二级。</p>
-			<p>※积极向上，学习刻苦，成绩优异。</p>
-			<p>&emsp;&emsp;2008-2010年连续两年获校二等奖学金。</p>
-			<p>&emsp;&emsp;2010-2011年获国家励志奖学金。</p>
-			<p>&emsp;&emsp;2012-2013年获研究生一等优秀奖学金。</p>
+			
 
 		</div>
 		<div id="tab2" class="tab_content">
@@ -63,7 +49,7 @@
 			<p>&emsp;&emsp;王子回宫后向国王提及与鲅鱼公主的婚事，遭到国王的坚决反对，几翻争执后王子被国王关押起来。</p>
 			<p>&emsp;&emsp;等到八月十五那天，满海的鲅鱼黑压压的出现在海面上，一个个朝着岸上张着圆嘴，非常的兴奋，因为鲅鱼公主就要和王子成亲了，然而，从清晨到夜晚，王子始终都没有出现，鲅鱼公主伤心绝望的留下了眼泪，这时，王子的一个随从出现了，他手中拿着王子的笛子告诉鲅鱼公主事情的真相，原来，王子被国王关押以后，终日思念鲅鱼公主，不言不语，只顾着吹笛子，笛声中满是伤悲之音，最终王子郁郁而终，临死前，王子托他的随从将手中的笛子送给鲅鱼公主。</p>
 			<p>&emsp;&emsp;鲅鱼公主听说整个事情的真相后，悲伤欲绝，她拿起王子的笛子吹了起来，满海的鲅鱼沸腾了，发出一阵一阵排山倒海般的怪叫，仿佛在痛恨国王的狠心与顽固，所有的鲅鱼都在向岸上冲撞，还咯吱咯吱的吞吃海岸线，表示他们对国王的不满，渐渐地海岸被鱼儿们啃去了一大块，形成了一个月牙形的海湾，而鲅鱼公主在那里一刻不停的吹着王子的笛子，鲅鱼公主终于用尽最后一口气力，倒下了……</p>
-			<p>&emsp;&emsp;人们为了纪念鲅鱼公主和王子凄美的爱情，将王子经过的这个地方命名为鲅鱼圈，而被鱼儿啃成月牙形的海湾又叫月牙湾。此后每年的八月十五满海的鲅鱼都会聚集在海面上，发出阵阵怪叫，它们是在怀念鲅鱼公主和王子。</p>	
+			<p>&emsp;&emsp;人们为了纪念鲅鱼公主和王子凄美的爱情，将王子经过的这个地方命名为鲅鱼圈，而被鱼儿啃成月牙形的海湾又叫月牙湾。此后每年的八月十五满海的鲅鱼都会聚集在海面上，发出阵阵怪叫，它们是在怀念鲅鱼公主和王子。</p>
 		</div>
 		<div id="tab3" class="tab_content">
 			<h2>经历</h2>
